@@ -22,7 +22,7 @@ I'm interested in becoming a data analyst in Australia, but wanted to answer som
   * Answering the primary questions with various dashboards.
 
 
-**Results**
+**Summary of Results**
 
 At time of writing (14/10/21) from a sample of nearly 550 job listings, the following insights hold true:
 * SQL is the most in-demand skill, with just over 61% of all listings requiring or preferring applicants who know it.
