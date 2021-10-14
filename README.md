@@ -1,4 +1,4 @@
-# data_skills_project
+# Data_Skills_Project
 A project for learning more about the career I aspire to.
 
 
@@ -26,5 +26,7 @@ I'm interested in becoming a data analyst in Australia, but wanted to answer som
 
 
 **Results**
-From a sample of nearly 550 job listings, the following insights hold true:
+At time of writing (14/10/21) from a sample of nearly 550 job listings, the following insights hold true:
 * SQL is the most in-demand skill, with just over 61% of all listings requiring or preferring applicants who know it.
+* The average salary is AU $120,998.48.
+* Only 32% of listings mention the need or preference for a degree or other tertiary qualification.
