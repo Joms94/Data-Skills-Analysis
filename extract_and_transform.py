@@ -60,11 +60,11 @@ def add_salaries_to_database():
     body_series = get_records_from_database()['Body']
     salary_df = pd.DataFrame(columns=['Salary'], index=(range(0, len(body_series))))
 
-    # Getting all currency numbers.
+    # Getting all currency strings.
     for index, body in enumerate(body_series):
         salary_df['Salary'][index] = re.findall('(?:[\£\$\€]{1}[,\d]+.?\d*)', body)
 
-    # Turning currency strings into floats.
+    # Cleaning currency strings.
     replace_dict = {
                     '': ['$', ',', '(', ')', '-', '+', ' ', '/'],
                     '000': ['k', 'K'],
