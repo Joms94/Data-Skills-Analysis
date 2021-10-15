@@ -37,6 +37,7 @@ In addition, please do not lower the scraping speed below the thershold I have s
 
 
 **Usage notes**
+
 This project is largely here for display purposes, and as such three things will need to be done for personal use: 
   1. You'll need to create your own blank Google sheet.
   2. The 'open by key' methods in database_interaction.py will need to be substituted for your own G Sheet's key.
