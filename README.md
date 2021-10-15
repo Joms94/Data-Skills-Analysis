@@ -1,4 +1,4 @@
-# Data Skills: Designing an ETL process, conducting exploratory analysis and presenting findings to learn more about data analytics as a career
+# Designing an ETL process, conducting exploratory analysis and presenting findings to learn more about data analytics as a career
 A project for learning more about the career I aspire to.
 
 
