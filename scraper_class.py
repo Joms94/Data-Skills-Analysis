@@ -22,17 +22,18 @@ class Scraper(object):
     def __init__(self, url_to_scrape:str, page_results_xpath:str, content_xpath:str, 
                 jobtitle_html:str,company_html:str, location_html:str, posted_html:str,
                 body_html:str, salary_html:str, page_turn_xpath:str, result_count:str):
-        self.url_to_scrape = url_to_scrape
-        self.page_results_xpath = page_results_xpath
-        self.content_xpath = content_xpath
+        # Several xpaths are required to properly configure a scraper. See scraper_instances.py for two successful examples.
+        self.url_to_scrape = url_to_scrape # Cannot be a landing page; needs to be a search results page for a job type.
+        self.page_results_xpath = page_results_xpath # Refers to the element containing total number of search results, e.g. '250 results found'.
+        self.content_xpath = content_xpath # Clickable search results page link to a job listing. 
         self.jobtitle_html = jobtitle_html
         self.company_html = company_html
         self.location_html = location_html
         self.posted_html = posted_html
         self.body_html = body_html
         self.salary_html = salary_html
-        self.page_turn_xpath = page_turn_xpath
-        self.result_count = result_count
+        self.page_turn_xpath = page_turn_xpath # Points to a clickable page-turn button, often found at the bottom of the search results page.
+        self.result_count = result_count # Refers to the element containing number of search results being currently displayed.
     
     # Download driver and open a Chrome window to the desired webpage.
     def _configure_driver(self):
