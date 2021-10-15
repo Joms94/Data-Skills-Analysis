@@ -40,9 +40,9 @@ def perform_all_operations(
 
 if __name__ == '__main__':
     perform_all_operations(
-                            run_scrapers=False, 
-                            drop_duplicates=False,
-                            update_insights=False,
+                            run_scrapers=True, 
+                            drop_duplicates=True,
+                            update_insights=True,
                             perform_transformations=True,
                             scrapers1=postjobfree_scraper, 
                             scrapers2=jobserve_scraper
