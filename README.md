@@ -34,3 +34,10 @@ At time of writing (14/10/21) from a sample of nearly 550 job listings, the foll
 
 Please do not run the scraper on sites that haven't consented to automation being used. This includes the majority of big sites like LinkedIn or Seek. Always check the terms of use before configuring a scraper for it.
 In addition, please do not lower the scraping speed below the thershold I have set. This is a courtesy measure. Running faster than a human could reasonably be expected to act could be seen as an attack by the site owners.
+
+
+**Usage notes**
+* This project is largely here for display purposes, and as such three things will need to be done for personal use: 
+  1. You'll need to create your own blank Google sheet.
+  2. The 'open by key' methods in database_interaction.py will need to be substituted for your own G Sheet's key.
+  3. You'll need to set up your own service account credentials. Don't forget to give edit permissions to the service account.
