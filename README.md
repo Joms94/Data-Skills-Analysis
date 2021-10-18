@@ -1,4 +1,4 @@
-# Designing an ETL process, conducting exploratory analysis and presenting findings to learn more about data analytics as a career
+# Designing an ELT process, conducting exploratory analysis and presenting findings to learn more about data analytics as a career
 A project for learning more about the career I aspire to.
 
 
@@ -12,10 +12,11 @@ I'm interested in becoming a data analyst in Australia, but wanted to answer som
 
 **How am I answering these questions?**
 
-1. ETL process to gather information
+1. ELT process to gather information
   * Creating a scraper from scratch to collect job data from multiple sites that do not prohibit scraping or automation in their terms of use.
-  * Extracting additional details from scraped information (e.g. salaries in the job listing body text) and cleaning the data.
   * Loading it into a Google Sheets database (for easy use with Tableau later).
+  * Extracting additional details from scraped information (e.g. salaries in the job listing body text) and cleaning the data.
+
 
 2. Exploring the data
   * Connecting the data to Tableau Public.
