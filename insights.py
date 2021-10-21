@@ -19,7 +19,7 @@ def count_body_words(list:list,
     wordcount_frame.reset_index(inplace=True)
     wordcount_frame.columns = columns
     if upload == True:
-        upload_to_database(dataframe=wordcount_frame, sheetname=sheetname, clear=True)
+        upload_to_database(dataframe=wordcount_frame, sheetname=sheetname, clear=False)
         print(f'{sheetname} updated successfully.')
     return wordcount_frame
 
