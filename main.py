@@ -9,7 +9,6 @@ from extract_and_transform import perform_all_transformations
 
 def perform_all_operations( 
                             run_scrapers:bool=True,
-                            upload_results:bool=True,
                             drop_duplicates:bool=True, 
                             perform_transformations:bool=True, 
                             update_insights:bool=True, 
@@ -17,7 +16,7 @@ def perform_all_operations(
     if run_scrapers == True:
         for scraper in scrapers:
             try:
-                scraper.run(upload=upload_results)
+                scraper.values()
             finally:
                 continue
     if drop_duplicates == True:
@@ -44,6 +43,6 @@ if __name__ == '__main__':
                             drop_duplicates=True,
                             update_insights=True,
                             perform_transformations=True,
-                            scrapers1=postjobfree_scraper, 
-                            scrapers2=jobserve_scraper
+                            scrapers1=postjobfree_scraper.run(upload=True), 
+                            scrapers2=jobserve_scraper.run(upload=True)
                             )
