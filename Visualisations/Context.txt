@@ -1,1 +1,3 @@
 This dashboard was created in Tableau Public.
+To view the results of the latest scrape, go to:
+https://public.tableau.com/views/DataSkills_16341151508170/JobDash?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link
